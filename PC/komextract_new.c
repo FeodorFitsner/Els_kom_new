@@ -10,7 +10,7 @@
 /* for loading python script from the resource
  * section.
  */
-#include <windows.h>
+#include <Windows.h>
 #define WITH_ENCRYPTION
 #ifdef WITH_ENCRYPTION
 #include "encryption.h"
@@ -42,8 +42,7 @@ wmain(int argc, wchar_t **argv)
 #endif
   Py_SetProgramName(program);  /* optional but recommended */
   Py_Initialize();
-  int initialized = Py_IsInitialized();
-  if (initialized != 0) {
+  if (Py_IsInitialized() != 0) {
     /* allows use of sys.argv to be possible
      * with no tracebacks.
      */

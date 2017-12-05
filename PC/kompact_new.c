@@ -10,7 +10,7 @@
 /* for loading python script from the resource
  * section.
  */
-#include <windows.h>
+#include <Windows.h>
 #define WITH_ENCRYPTION
 #ifdef WITH_ENCRYPTION
 #include "encryption.h"
