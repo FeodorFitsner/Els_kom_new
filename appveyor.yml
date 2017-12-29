@@ -23,7 +23,15 @@ environment:
   - step_name: 13
   - step_name: 14
   - step_name: 15
-  - step_name: 16   
+  - step_name: 16
+  - step_name: 17
+  - step_name: 18
+  - step_name: 19
+  - step_name: 20
+  - step_name: 21
+  - step_name: 22
+  - step_name: 23
+  - step_name: 24
 
 before_build:
 - cmd: call ci_build.bat
