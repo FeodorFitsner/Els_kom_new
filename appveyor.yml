@@ -5,6 +5,15 @@ configuration: Release
 platform: x86
 test: off
 
+environment:
+  matrix:
+  - step_name: 1
+  - step_name: 2
+  - step_name: 3
+  - step_name: 4
+  - step_name: 5
+  - step_name: 6
+
 before_build:
 - cmd: call ci_build.bat
 
