@@ -13,13 +13,19 @@ environment:
   - step_name: 4
   - step_name: 5
   - step_name: 6
+  - step_name: 7
+  - step_name: 8
+  - step_name: 9
+  - step_name: 10
+  - step_name: 11
+  - step_name: 12 
 
 before_build:
 - cmd: call ci_build.bat
 
-cache:
-  - .\externals\cpython
-  - .\externals\aes
+#cache:
+#  - .\externals\cpython
+#  - .\externals\aes
 
 build:
   project: Els_kom_Solution.sln
